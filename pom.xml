@@ -15,11 +15,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>27.1-jre</version>
-        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -41,11 +37,7 @@
                     <artifactId>sonar-maven-plugin</artifactId>
                     <version>3.7.0.1746</version>
                 </plugin>
-                <plugin>
-                    <groupId>org.jacoco</groupId>
-                    <artifactId>jacoco-maven-plugin</artifactId>
-                    <version>0.8.6</version>
-                </plugin>
+
             </plugins>
         </pluginManagement>
     </build>
